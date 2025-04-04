@@ -16,8 +16,12 @@ public class sentencia_while {
 		int contras;
 
 		System.out.println("Escribi la contrasena: ");
-		contras = datos.nextInt();
+		contras = datos.nextInt(); 
 		
+		
+		// LA CONTRASEÑA CORRECTA ES 7
+		// MIENTRAS LA CONTRASEÑA ES DISTINTA DE 7, HAY QUE PERMITIR
+		// VOLVER A INGRESARLA.
 		while (contras != 7) {
 			System.out.println("No, le erraste.");
 			System.out.println("Volve a intentarlo: ");
